@@ -21,6 +21,7 @@ class CheckOutBot:
     # Logs you into Best Buy account using stored information. 
     def login(self, email, password):
 
+        # Goes to the my account webpage.
         self.driver.get("https://www.bestbuy.com/site/customer/myaccount")
         time.sleep(3)
         
