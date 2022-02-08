@@ -68,6 +68,7 @@ class CheckOutBot:
                 self.driver.refresh()
                 time.sleep(3)
 
+        # Clicks add to cart.
         add_to_cart_button.click()
         self.driver.refresh()
         time.sleep(2)
